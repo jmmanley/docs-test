@@ -15,8 +15,8 @@ build:
     # golang: "1.20"
   jobs:
     pre_build:
-     - sphinx-apidoc -o ../package1/docs/ ../package1
-     - sphinx-apidoc -o ../package2/docs/ ../package2
+     - sphinx-apidoc -o docs-test/package1/docs/ docs-test/package1
+     - sphinx-apidoc -o docs-test/package2/docs/ docs-test/package2
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
