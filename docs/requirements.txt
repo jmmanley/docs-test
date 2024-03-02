@@ -2,3 +2,5 @@ sphinx
 sphinx-multiproject
 sphinx_rtd_theme
 nbsphinx
+m2r
+sphinxcontrib-apidoc
