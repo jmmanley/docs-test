@@ -8,7 +8,7 @@
 .. toctree::
    :maxdepth: 2
 
-   ../../demo.ipynb
+   demo.ipynb
 
 .. toctree::
    :maxdepth: 2

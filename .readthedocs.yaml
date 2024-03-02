@@ -13,6 +13,8 @@ build:
     # nodejs: "20"
     # rust: "1.70"
     # golang: "1.20"
+  jobs:
+    - ln -s demo.ipynb docs/package1/demo.ipynb
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
