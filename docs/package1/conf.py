@@ -22,6 +22,8 @@ sys.path.insert(0, os.path.abspath('../../'))
 
 extensions = ["numpydoc", "nbsphinx", "m2r"]
 
+source_suffix = [".rst", ".md"]
+
 templates_path = ['_templates']
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
