@@ -13,12 +13,9 @@ build:
     # nodejs: "20"
     # rust: "1.70"
     # golang: "1.20"
-  # jobs:
-  #   pre_build:
-  #    - sphinx-apidoc -o docs/package1/ package1
-  #    - sphinx-apidoc -o docs/package2/ package2
-  post_build:
-       - make html --directory docs/package2
+  jobs:
+    post_build:
+     - make html --directory docs/package2
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
