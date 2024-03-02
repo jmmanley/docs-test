@@ -13,14 +13,14 @@ build:
     # nodejs: "20"
     # rust: "1.70"
     # golang: "1.20"
-  jobs:
-    pre_build:
-     - sphinx-apidoc -o docs/package1/ package1
-     - sphinx-apidoc -o docs/package2/ package2
+  # jobs:
+  #   pre_build:
+  #    - sphinx-apidoc -o docs/package1/ package1
+  #    - sphinx-apidoc -o docs/package2/ package2
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
-  configuration: conf.py
+  configuration: docs/conf.py
   # You can configure Sphinx to use a different builder, for instance use the dirhtml builder for simpler URLs
   # builder: "dirhtml"
   # Fail on all warnings to avoid broken references
