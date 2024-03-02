@@ -16,6 +16,8 @@ build:
   jobs:
     pre_build:
       - cp demo.ipynb docs/package1/demo.ipynb
+      - sphinx-apidoc -o docs/package1/ package1/package1/
+      - sphinx-apidoc -o docs/package2/ package2/package2/
 
 # Build documentation in the "docs/" directory with Sphinx
 sphinx:
