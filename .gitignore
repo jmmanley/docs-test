@@ -165,12 +165,9 @@ slurm-scripts/
 *.err
 
 # Docs
-*/docs/_build
-*/docs/_build/*
-*/docs/_templates
-*/docs/_templates/*
-*/docs/_static
-*/docs/_static/*
+_build/
+_templates/
+_static/
 
 # Misc 
 make.bat
