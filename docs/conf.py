@@ -26,6 +26,9 @@ html_theme = "sphinx_rtd_theme"
 # RJG - This file is set up to allow the sphinx-multiproject to build the docs for align, view and edit from a single repository
 extensions = [
    "multiproject",
+   "numpydoc",
+   "nbsphinx",
+   "m2r"
 ]
 
 # Define the projects that will share this configuration file.
