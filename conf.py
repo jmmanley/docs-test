@@ -35,14 +35,14 @@ multiproject_projects = {
          "config": {
             "project": "package1",
             "html_title": "package1",
-            "path":  "package1/docs",
+            "path":  "package1/docs/",
          },
     },
     "package2": {
          "config": {
             "project": "package2",
             "html_title": "package2",
-            "path":  "package2/docs",
+            "path":  "package2/docs/",
          },
     },
 }
