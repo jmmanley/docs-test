@@ -31,14 +31,14 @@ extensions = [
 # Define the projects that will share this configuration file.
 # These have to match the project environmental variable defined in the readthedocs admin menu (readthedocs project --> admin --> environmental variables; i.e.SPIERSalign/docs,SPIERSedit/docs or SPIERSview/docs)
 multiproject_projects = {
-    "package1/docs": {
+    "package1": {
          "config": {
             "project": "package1",
             "html_title": "package1",
             "path":  "package1/docs",
          },
     },
-    "package2/docs": {
+    "package2": {
          "config": {
             "project": "package2",
             "html_title": "package2",
