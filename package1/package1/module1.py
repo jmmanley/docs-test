@@ -1,3 +1,5 @@
+import numpy as np
+
 def my_function(x):
     """
     Returns x squared.
